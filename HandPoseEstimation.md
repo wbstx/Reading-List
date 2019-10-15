@@ -7,7 +7,7 @@ Challenges to overcome:
 + Real-time speed
 
 ## RGB-based Method
-[Exploiting Spatial-temporal Relationships for 3D Pose Estimation via Graph Convolutional Networks][1] predicts from 2D skeletons to 3D joint positions considering **spatial-temporal coherence**.
+**(ICCV 2019)** [Exploiting Spatial-temporal Relationships for 3D Pose Estimation via Graph Convolutional Networks][1] predicts from 2D skeletons to 3D joint positions considering **spatial-temporal coherence**.
 
 Insights:
 + GCN
@@ -15,7 +15,7 @@ Insights:
 + Different kernels for different relations
 + GCN local-to-global
 
-[3D Hand Shape and Pose Estimation from a Single RGB Image][2] predicts both the hand pose and the hand shape in a single pass.
+ **(CVPR 2019)** [3D Hand Shape and Pose Estimation from a Single RGB Image][2] predicts both the hand pose and the hand shape in a single pass.
 
 Insights:
 + Treat the hand mesh as a graph and use GCN
@@ -23,7 +23,7 @@ Insights:
 + synthetic dataset (Maya)
 + Weakly-supervised fine-tuned using depth maps
 
-[A2J: Anchor-to-Joint Regression Network for 3D Articulated Pose Estimation from a Single Depth Image][3] predicts 3d hand joint position from depth maps. Instead of predicting based on PointNet or 3D CNN, they used anchor points and voting system, which reduced the computing time.
+**(ICCV 2019)**  [A2J: Anchor-to-Joint Regression Network for 3D Articulated Pose Estimation from a Single Depth Image][3] predicts 3d hand joint position from depth maps. Instead of predicting based on PointNet or 3D CNN, they used anchor points and voting system, which reduced the computing time.
 
 Insights:
 + Anchor points
