@@ -7,7 +7,7 @@ Challenges to overcome:
 + Real-time speed
 
 ## RGB-based Method
-[Exploiting Spatial-temporal Relationships for 3D Pose Estimation via Graph Convolutional Networks][1] predicts from 2D skeletons to 3D joint positions considering *spatial-temporal coherence*.
+[Exploiting Spatial-temporal Relationships for 3D Pose Estimation via Graph Convolutional Networks][1] predicts from 2D skeletons to 3D joint positions considering **spatial-temporal coherence**.
 
 Insights:
 + GCN
