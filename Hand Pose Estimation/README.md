@@ -15,4 +15,13 @@ Insights:
 + Different kernels for different relations
 + GCN local-to-global
 
+[3D Hand Shape and Pose Estimation from a Single RGB Image][2] predicts both the hand pose and the hand shape in a single pass.
+
+Insights:
++ Treat the hand mesh as a graph and use GCN
++ GCN coarse to fine
++ synthetic dataset (Maya)
++ Weakly-supervised fine-tuned using depth maps
+
 [1]:	https://cse.buffalo.edu/~jsyuan/papers/2019/Exploiting_Spatial-temporal_Relationships_for_3D_Pose_Estimation_via_Graph_Convolutional_Networks.pdf
+[2]:	https://arxiv.org/abs/1903.00812
