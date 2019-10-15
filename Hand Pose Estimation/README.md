@@ -23,5 +23,12 @@ Insights:
 + synthetic dataset (Maya)
 + Weakly-supervised fine-tuned using depth maps
 
+[A2J: Anchor-to-Joint Regression Network for 3D Articulated Pose Estimation from a Single Depth Image][3] predicts 3d hand joint position from depth maps. Instead of predicting based on PointNet or 3D CNN, they used anchor points and voting system, which reduced the computing time.
+
+Insights:
++ Anchor points
++ Voting
+
 [1]:	https://cse.buffalo.edu/~jsyuan/papers/2019/Exploiting_Spatial-temporal_Relationships_for_3D_Pose_Estimation_via_Graph_Convolutional_Networks.pdf
 [2]:	https://arxiv.org/abs/1903.00812
+[3]:	https://arxiv.org/abs/1908.09999
