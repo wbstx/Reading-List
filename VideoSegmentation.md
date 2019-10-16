@@ -18,7 +18,7 @@ Insights:
 Insights:
 + Adaptive key-frame selection
 + Spatio variant  kernels
-+ Late computation.
++ Late computation
 
 [1]:	https://arxiv.org/abs/1611.07715
 [2]:	https://arxiv.org/abs/1804.00389
