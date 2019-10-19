@@ -12,10 +12,12 @@ Challenges to overcome:
 Insights:
 + MANO hand model
 + **Optimizing step (high speed)**
-+ Vertex-to-color and pixel-to-color mapping (can be useful)
++ Vertex-to-color and pixel-to-color mapping (can be useful)  
+
+**(SIGGRAPH 2019)** [InteractionFusion: real-time reconstruction of hand poses and deformable objects in hand-object interactions][2] LSTM for occluded scenarios.
 
 ## RGB-based Method
-**(ICCV 2019)** [Exploiting Spatial-temporal Relationships for 3D Pose Estimation via Graph Convolutional Networks][2] predicts from 2D skeletons to 3D joint positions considering **spatial-temporal coherence**.
+**(ICCV 2019)** [Exploiting Spatial-temporal Relationships for 3D Pose Estimation via Graph Convolutional Networks][3] predicts from 2D skeletons to 3D joint positions considering **spatial-temporal coherence**.
 
 Insights:
 + GCN
@@ -23,7 +25,7 @@ Insights:
 + Different kernels for different relations
 + GCN local-to-global
 
- **(CVPR 2019)** [3D Hand Shape and Pose Estimation from a Single RGB Image][3] predicts both the hand pose and the hand shape in a single pass.
+ **(CVPR 2019)** [3D Hand Shape and Pose Estimation from a Single RGB Image][4] predicts both the hand pose and the hand shape in a single pass.
 
 Insights:
 + Treat the hand mesh as a graph and use GCN
@@ -31,13 +33,14 @@ Insights:
 + synthetic dataset (Maya)
 + Weakly-supervised fine-tuned using depth maps
 
-**(ICCV 2019)**  [A2J: Anchor-to-Joint Regression Network for 3D Articulated Pose Estimation from a Single Depth Image][4] predicts 3d hand joint position from depth maps. Instead of predicting based on PointNet or 3D CNN, they used anchor points and voting system, which reduced the computing time.
+**(ICCV 2019)**  [A2J: Anchor-to-Joint Regression Network for 3D Articulated Pose Estimation from a Single Depth Image][5] predicts 3d hand joint position from depth maps. Instead of predicting based on PointNet or 3D CNN, they used anchor points and voting system, which reduced the computing time.
 
 Insights:
 + Anchor points
 + Voting
 
 [1]:	https://handtracker.mpi-inf.mpg.de/projects/TwoHands/
-[2]:	https://cse.buffalo.edu/~jsyuan/papers/2019/Exploiting_Spatial-temporal_Relationships_for_3D_Pose_Estimation_via_Graph_Convolutional_Networks.pdf
-[3]:	https://arxiv.org/abs/1903.00812
-[4]:	https://arxiv.org/abs/1908.09999
+[2]:	http://cgcad.thss.tsinghua.edu.cn/xufeng/zhang2019interaction_online.pdf
+[3]:	https://cse.buffalo.edu/~jsyuan/papers/2019/Exploiting_Spatial-temporal_Relationships_for_3D_Pose_Estimation_via_Graph_Convolutional_Networks.pdf
+[4]:	https://arxiv.org/abs/1903.00812
+[5]:	https://arxiv.org/abs/1908.09999
