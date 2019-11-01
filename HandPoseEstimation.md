@@ -39,8 +39,12 @@ Insights:
 + Anchor points
 + Voting
 
+## Parametric Hand Model
+**(SIGGRAPH 2017)** [Embodied Hands: Modeling and Capturing Hands and Bodies Together][6]  introduces MANO, a differentiable 3D hand model based on PCA. It has two parameters: shapes and poses.
+
 [1]:	https://handtracker.mpi-inf.mpg.de/projects/TwoHands/
 [2]:	http://cgcad.thss.tsinghua.edu.cn/xufeng/zhang2019interaction_online.pdf
 [3]:	https://cse.buffalo.edu/~jsyuan/papers/2019/Exploiting_Spatial-temporal_Relationships_for_3D_Pose_Estimation_via_Graph_Convolutional_Networks.pdf
 [4]:	https://arxiv.org/abs/1903.00812
 [5]:	https://arxiv.org/abs/1908.09999
+[6]:	https://mano.is.tue.mpg.de/
