@@ -40,7 +40,14 @@ Insights:
 + Voting
 
 ## Parametric Hand Model
-**(SIGGRAPH 2017)** [Embodied Hands: Modeling and Capturing Hands and Bodies Together][6]  introduces MANO, a differentiable 3D hand model based on PCA. It has two parameters: shapes and poses.
+**(SIGGRAPH 2017)** [Embodied Hands: Modeling and Capturing Hands and Bodies Together][6]  introduces MANO, a differentiable 3D hand model based on PCA. It has two parameters: shapes  and poses.
+
+## Silhouette Loss and Differentiable Renderer
+Differentiable Renderer mostly focuses on rasterization. It is the only step that is not differentiable in the rendering pipeline.
+**(CVPR 2018)** [Neural 3D Mesh Renderer][7]
+**(CVPR 2019)** [Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning][8]
+**NVIDIA** [Kaolin][9]
+
 
 [1]:	https://handtracker.mpi-inf.mpg.de/projects/TwoHands/
 [2]:	http://cgcad.thss.tsinghua.edu.cn/xufeng/zhang2019interaction_online.pdf
@@ -48,3 +55,6 @@ Insights:
 [4]:	https://arxiv.org/abs/1903.00812
 [5]:	https://arxiv.org/abs/1908.09999
 [6]:	https://mano.is.tue.mpg.de/
+[7]:	https://arxiv.org/abs/1711.07566
+[8]:	https://arxiv.org/abs/1904.01786
+[9]:	https://github.com/NVIDIAGameWorks/kaolin
