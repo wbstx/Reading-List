@@ -44,8 +44,11 @@ Insights:
 
 ## Silhouette Loss and Differentiable Renderer
 Differentiable Renderer mostly focuses on rasterization. It is the only step that is not differentiable in the rendering pipeline.
+
 **(CVPR 2018)** [Neural 3D Mesh Renderer][7]
+
 **(CVPR 2019)** [Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning][8]
+
 **NVIDIA** [Kaolin][9]
 
 
