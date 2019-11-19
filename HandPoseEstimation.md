@@ -14,7 +14,10 @@ Insights:
 + **Optimizing step (high speed)**
 + Vertex-to-color and pixel-to-color mapping (can be useful)  
 
-**(SIGGRAPH 2019)** [InteractionFusion: real-time reconstruction of hand poses and deformable objects in hand-object interactions][2] LSTM for occluded scenarios.
+**(SIGGRAPH 2019)** [InteractionFusion: real-time reconstruction of hand poses and deformable objects in hand-object interactions][2] predicting both hand and objects.
+
+Insights:
++ LSTM for occluded scenarios.
 
 ## RGB-based Method
 **(ICCV 2019)** [Exploiting Spatial-temporal Relationships for 3D Pose Estimation via Graph Convolutional Networks][3] predicts from 2D skeletons to 3D joint positions considering **spatial-temporal coherence**.

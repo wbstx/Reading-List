@@ -28,6 +28,14 @@ Insights:
 + Reinforcement Learning for budget awareness
 + CNN for feature propagation
 
+## RNN-based Method
+**(ECCV 2018)** [YouTube-VOS: Sequence-to-Sequence Video Object Segmentation][4] convolutional LSTM.
+
+Insights:
++ Encoder before fed into LSTM, decoder after LSTM
++ A large scale dataset
+
 [1]:	https://arxiv.org/abs/1611.07715
 [2]:	https://arxiv.org/abs/1804.00389
 [3]:	http://web.engr.oregonstate.edu/~sinisa/research/publications/cvpr17_budget.pdf
+[4]:	https://arxiv.org/abs/1809.00461
