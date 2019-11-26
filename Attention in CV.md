@@ -4,8 +4,11 @@ Attention mechanism can better help the network to focus on interested areas. It
 # Self-Attention
 **(ECCV 2018)** [CBAM: Convolutional Block Attention Module][1] an attention module containing spatial attention and channel attention.
 
+**(ICCV 2019)** [GCNet: Non-local Networks Meet Squeeze-Excitation Networks and Beyond][2] A light-weight non-local block for self-attention.
+
 ## Correlation Filter
-**(CVPR 2018)** [High Performance Visual Tracking with Siamese Region Proposal Network][2]
+**(CVPR 2018)** [High Performance Visual Tracking with Siamese Region Proposal Network][3]
 
 [1]:	https://arxiv.org/abs/1807.06521
-[2]:	http://www.zhengzhu.net/upload/P6938bc861e8d4583bf47d47d64ed9598.pdf
+[2]:	https://arxiv.org/abs/1904.11492
+[3]:	http://www.zhengzhu.net/upload/P6938bc861e8d4583bf47d47d64ed9598.pdf
